@@ -1,5 +1,11 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.7.1
+
+### Patch Changes
+
+- a341a8716: Fix parsing of the path to default to empty string not undefined if git-url-parse throws something we don't expect. Fixes the error `The "path" argument must be of type string.` when preparing.
+
 ## 0.7.0
 
 ### Minor Changes
